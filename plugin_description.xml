@@ -1,0 +1,9 @@
+<library path="lib/librviz_surface_trajectory">
+  <class name="rviz_surface_trajectory/SurfaceTrajectory"
+         type="rviz_surface_trajectory::SurfaceTrajectoryTool"
+         base_class_type="rviz::Tool">
+    <description>
+      Tool for calculating trajectories on a surface.
+    </description>
+  </class>
+</library>

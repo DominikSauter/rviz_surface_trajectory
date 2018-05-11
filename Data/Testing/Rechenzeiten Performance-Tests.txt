@@ -1,0 +1,27 @@
+T-Rex:
+70TP - 10x - 2h
+100TP - 10x - 3h
+1000TP - 1x - 3h (evtl. 3x machen)
+-------
+python PerformanceTests.py 2 PerformanceTestsT-Rex.txt 230 5
+
+Stanford Bunny:
+2TP - 100x - 9min
+10TP - 100x - 42min
+40TP - 10x - 17min
+70TP - 10x - 30min
+100TP - 10x - 42min
+1000TP - 3x - 2,1h
+= ~5h
+-------
+python PerformanceTests.py 1 PerformanceTestsStanfordBunny.txt 40 2
+
+Kugel:
+2TP - 100x - 6sec
+10TP - 100x - 30sec
+40TP - 10x - 12sec
+70TP - 10x - 21sec
+100TP - 10x - 30sec
+1000TP - 3x - 1,5min
+-------
+python PerformanceTests.py 0 PerformanceTestsKugel.txt 0.07 0.04
