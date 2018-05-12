@@ -49,4 +49,4 @@ run it with RViz you need:
 This was developed in the context of my Bachelor Thesis at the Karlsruhe Institute of Technology (KIT), Germany.
 
 ## License
-Licensed unter the MIT license (see [LICENSE](LICENSE) file for more details).
+Licensed under the MIT license (see [LICENSE](LICENSE) file for more details).
