@@ -7,7 +7,7 @@ Either the resulting trajectory on the mesh (called "surface-trajectory") is fol
 for robot movements on object surfaces for surface treatment activities, there is a further post-processing step applied for the
 readyily use of the calculated surface-trajectories (called "offset-trajectory").
 
-The implementation is done as a tool-plugin for RViz, which is the visualization tool of the Robot Operating System (ROS),
+The implementation is done as a tool-plugin (called "Surface Trajectory") for RViz, which is the visualization tool of the Robot Operating System (ROS),
 to allow for interactive visualization and testing. However, the calculation part of the code may be detached from the
 tool-plugin and used in different applications.
 
