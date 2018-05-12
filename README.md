@@ -11,8 +11,11 @@ The implementation is done as a tool-plugin (called "Surface Trajectory") for RV
 to allow for interactive visualization and testing. However, the calculation part of the code may be detached from the
 tool-plugin and used in different applications.
 
-## Screenshot
-![](RVizStanfordBunnyKIT01.png "RViz with the tool-plugin.")
+## RViz Screenshot
+![](RVizStanfordBunnyKIT01.png "RViz with the tool-plugin and a projected trajectory pattern.")
+
+## UML Class Diagram
+![](UML-KlassendiagrammHeller.png "UML class diagram of the whole code.")
 
 ## Getting Started
 To use the tool-plugin in RViz follow these steps:
@@ -37,6 +40,8 @@ U                  | Start of the time measurement test (part of the thesis eval
 L                  | Toggle display of yellow connection lines
 N                  | Toggle display of red normal vectors
 D                  | Delete the placed blue trajectory pattern points
+
+To load another mesh change `mesh_resource_` in `SurfaceTrajectoryTool.cpp` to a new path and recompile.
 
 ### Prerequisites
 The code was developed using C++03 and the Ogre3D graphics engine (which is used by RViz). To compile the code with catkin and
