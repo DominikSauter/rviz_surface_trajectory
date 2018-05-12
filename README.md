@@ -30,12 +30,12 @@ Key                | Function
 T                  | Activate tool-plugin (must be active for the following commands)
 Left mouse button  | Place mesh or trajectory pattern points, respectively
 Right mouse button | Toggle placement mode for mesh and trajectory pattern points
-Q                  | Calculation and visualization of the projection-loyal surface-trajectory
-W                  | Calculation and visualization of the surface-loyal surface-trajectory with cycle detection
-E                  | Calculation and visualization of the surface-loyal surface-trajectory without cycle detection (Note: If there is a cutting point cycle this will induce an infinity loop.)
-Y                  | Calculation and visualization of the projection-loyal offset-trajectory
-X                  | Calculation and visualization of the surface-loyal offset-trajectory with cycle detection
-C                  | Calculation and visualization of the surface-loyal offset-trajectory without cycle detection (Note: If there is a cutting point cycle this will induce an infinity loop.)
+Q                  | Run the calculation and visualization of the projection-loyal surface-trajectory
+W                  | Run the calculation and visualization of the surface-loyal surface-trajectory with cycle detection
+E                  | Run the calculation and visualization of the surface-loyal surface-trajectory without cycle detection (Note: If there is a cutting point cycle this will induce an infinity loop.)
+Y                  | Run the calculation and visualization of the projection-loyal offset-trajectory
+X                  | Run the calculation and visualization of the surface-loyal offset-trajectory with cycle detection
+C                  | Run the calculation and visualization of the surface-loyal offset-trajectory without cycle detection (Note: If there is a cutting point cycle this will induce an infinity loop.)
 U                  | Start of the time measurement test (part of the thesis evaluation)
 L                  | Toggle display of yellow connection lines
 N                  | Toggle display of red normal vectors
